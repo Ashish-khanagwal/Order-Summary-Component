@@ -20,7 +20,8 @@ body {
   /* If you get repetaion of this image then simply use the property mentioned bleow */
   background-repeat: no-repeat;
   /* If the image is not fully streched according to your deskrtop width then use the property mentioned below */
-  background-size: cover;
+  background-size: contain;
+
   /* To use CSS custom varibles defined above in root*/
   background-color: var(--pale-blue);
   font-family: "Red Hat Display", sans-serif;
